@@ -11,6 +11,7 @@ val ktFreeCompilerArgs: String by project
 val tuPrologVersion: String by project
 
 repositories {
+    maven("https://dl.bintray.com/pika-lab/tuprolog/")
     mavenCentral()
 }
 
